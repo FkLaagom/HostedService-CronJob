@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostedService-CronJob", "HostedService-CronJob\HostedService-CronJob.csproj", "{A8EC81B1-8362-4695-99DE-8B7AFB72D370}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8EC81B1-8362-4695-99DE-8B7AFB72D370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8EC81B1-8362-4695-99DE-8B7AFB72D370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8EC81B1-8362-4695-99DE-8B7AFB72D370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8EC81B1-8362-4695-99DE-8B7AFB72D370}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49B4F2BE-2ED7-4A04-A64D-90C93FACCA23}
+	EndGlobalSection
+EndGlobal
