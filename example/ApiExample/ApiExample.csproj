@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\cronjobs\CronJobs.csproj" />
+    <ProjectReference Include="..\..\src\cronjobs\CronJobs.csproj" />
   </ItemGroup>
 
 
