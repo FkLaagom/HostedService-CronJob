@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
-namespace HostedService_CronJob.Controllers
+namespace ApiExample.Controllers
 {
     [ApiController]
     [Route("[controller]")]

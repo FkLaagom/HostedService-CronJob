@@ -4,7 +4,7 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace HostedService_CronJob.CronJobs
+namespace CronJobs
 {
     public abstract class CronJobBase : IHostedService, IDisposable
     {
@@ -36,10 +36,6 @@ namespace HostedService_CronJob.CronJobs
                     if (!cancellationToken.IsCancellationRequested)
                     {
                         await DoWork(cancellationToken);
-                    }
-
-                    if (!cancellationToken.IsCancellationRequested)
-                    {
                         await ScheduleJob(cancellationToken);    // reschedule next
                     }
                 };

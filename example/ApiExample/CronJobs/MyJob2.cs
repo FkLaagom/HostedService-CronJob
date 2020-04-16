@@ -3,7 +3,7 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace HostedService_CronJob.CronJobs
+namespace CronJobs
 {
     public class MyJob2 : CronJobBase
     {
@@ -16,6 +16,7 @@ namespace HostedService_CronJob.CronJobs
 
         public override Task DoWork(CancellationToken cancellationToken)
         {
+            ApiExample.DataBase.DB.Add($"{DateTime.Now:hh:mm:ss} Job2 working.");
             _logger.LogInformation($"{DateTime.Now:hh:mm:ss} Job2 working.");
             return Task.CompletedTask;
         }

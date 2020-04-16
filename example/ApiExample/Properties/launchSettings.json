@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "HostedService_CronJob": {
+    "ApiExample": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "hello",

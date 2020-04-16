@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace HostedService_CronJob
+namespace ApiExample
 {
     public static class DataBase
     {
@@ -9,7 +9,6 @@ namespace HostedService_CronJob
         {
             DB = new List<string>();
             DB.Add("HELLO");
-            DB.Add("HEL2O");
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HostedService_CronJob.CronJobs
+namespace CronJobs
 {
     public interface ICronJobConfig<T>
     {
